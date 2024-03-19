@@ -17,13 +17,10 @@ function calculateAdultYears() {
 
 // Call the function
 calculateAdultYears();
-console.log('------------------------------------');
 console.log(adultYears);
-console.log('------------------------------------');
+
 // Set age to a new value
 age = 45;
 // Call the function
 calculateAdultYears();
-console.log('------------------------------------');
 console.log(adultYears);
-console.log('------------------------------------');
