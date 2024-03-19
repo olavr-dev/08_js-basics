@@ -7,9 +7,23 @@ let job = {
   salary: 750000,
 };
 
-age = 45;
-let adultYears = age - 18;
+// Set adultYears without a value.
+let adultYears;
 
+// Function to deduct 18 from age to find number of adult years.
+function calculateAdultYears() {
+  adultYears = age - 18;
+}
+
+// Call the function
+calculateAdultYears();
+console.log('------------------------------------');
+console.log(adultYears);
+console.log('------------------------------------');
+// Set age to a new value
+age = 45;
+// Call the function
+calculateAdultYears();
 console.log('------------------------------------');
 console.log(adultYears);
 console.log('------------------------------------');
