@@ -1,15 +1,12 @@
-// Define variables
 let age = 42;
-let greetingText = "Hi, I'm Olav";
+let userName = 'Olav';
+let hobbies = ['Web Design', 'Gaming', 'Programming'];
+let job = {
+  title: 'Web Developer',
+  location: 'Sandnes',
+  salary: 750000,
+};
 
-// Show in browser
-alert(greetingText);
-console.log(greetingText);
-
-// Set a new value for the variable
-greetingText = 'My last name is Øye Rørvik';
-
-// Show in browser
-console.log(greetingText);
-alert(age);
-console.log(age);
+console.log('------------------------------------');
+console.log(hobbies[0]);
+console.log('------------------------------------');
