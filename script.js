@@ -7,6 +7,7 @@ let job = {
   salary: 750000,
 };
 
+age = 45;
 let adultYears = age - 18;
 
 console.log('------------------------------------');
