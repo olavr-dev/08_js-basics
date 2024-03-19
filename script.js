@@ -7,11 +7,11 @@ let job = {
   salary: 750000,
 };
 
-// Array
+// Targeting a value inside an array
 console.log('------------------------------------');
 console.log(hobbies[0]);
 console.log('------------------------------------');
-// Objects
+// Targeting a property inside an object
 console.log('------------------------------------');
 console.log(job.title);
 console.log('------------------------------------');
