@@ -29,3 +29,13 @@ age = 45;
 // Calculating adultYears based on the age variable (45 - 18 = 27)
 adultYears = calculateAdultYears(age);
 console.log(adultYears);
+
+// Adding a function to an object is called a method
+let person = {
+  name: 'Olav',
+  greet() {
+    console.log('Hello!');
+  },
+};
+
+person.greet();
