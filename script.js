@@ -10,17 +10,22 @@ let job = {
 // Set adultYears without a value.
 let adultYears;
 
-// Function to deduct 18 from age to find number of adult years.
-function calculateAdultYears() {
-  adultYears = age - 18;
+// Function to deduct 18 from age using a return statement
+// Setting parameter to userAge, making it a variable available only inside the function.
+function calculateAdultYears(userAge) {
+  let result;
+  result = userAge - 18;
+  return result;
 }
 
-// Call the function
-calculateAdultYears();
+// Call the function, storing it inside the adultYears variable
+// Calculating adultYears based on the age variable (42 - 18 = 24)
+adultYears = calculateAdultYears(age);
 console.log(adultYears);
 
-// Set age to a new value
+// Setting age to be 45
 age = 45;
-// Call the function
-calculateAdultYears();
+// Call the function, storing it inside the adultYears variable
+// Calculating adultYears based on the age variable (45 - 18 = 27)
+adultYears = calculateAdultYears(age);
 console.log(adultYears);
